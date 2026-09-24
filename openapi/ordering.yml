@@ -291,7 +291,7 @@ components:
           example: "31991953046"
           nullable: false
           x-validation: "notBlank"
-        birhDate:
+        birthDate:
           type: string
           format: date
           example: "1989-07-25"
@@ -308,7 +308,7 @@ components:
           type: string
           format: date-time
           example: "2024-04-04T00:12:45Z"
-        promotionNotificationAllowed:
+        promotionNotificationsAllowed:
           type: boolean
           example: false
         archived:
